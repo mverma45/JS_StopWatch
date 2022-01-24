@@ -1,12 +1,12 @@
 function start() {
-    document.getElementById("start").innerHTML = "Lets get ready to rumble";
+  document.getElementById("start").innerHTML = "Lets get ready to rumble";
 }
-function stop(){
-    document.getElementById("stop").innerHTML = "Stop rumbling";
+function stop() {
+  document.getElementById("stop").innerHTML = "Stop rumbling";
 }
-function reset(){
-    document.getElementById("reset").innerHTML = "Reset";
+function reset() {
+  document.getElementById("reset").innerHTML = "Reset";
 }
-function clear(){
-    document.getElementById("start").innerHTML = '';
+function clear() {
+  document.getElementById("start").innerHTML = "";
 }
