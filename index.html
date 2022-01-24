@@ -12,12 +12,23 @@
     <title>JS Calculator</title>
 </head>
 <body>
+    <h1 class="js">JavaScript Timer</h1>
+    <h2 class="time"><span id="seconds">00</span>:<span id="tens">00</span></h2>
     <h1 class="js">JavaScript Stop Watch</h1>
     <h2 class="time">0:00</h2>
     <div class="btns">
-        <button type="button" class="btn btn-warning">Start</button>
+        <button onclick="start()">Start</button>
+        <button onclick="stop()">Stop</button>
+        <button onclick="reset()">Reset</button>
+        <button onclick="clear()">Clear</button>
+        <!-- <button type="button" class="btn btn-warning">Start</button>
         <button type="button" class="btn btn-warning">Stop</button>
-        <button type="button" class="btn btn-warning">Reset</button>
+        <button type="button" class="btn btn-warning">Reset</button> -->
+
+        <p id="start"></p>
+        <p id="stop"></p>
+        <p id="reset"></p>
+        <p id="clear"></p>
     </div>
 </body>
 </html>
