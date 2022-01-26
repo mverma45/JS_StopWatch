@@ -1,4 +1,5 @@
-# JS_Calc
-JS Calculator
+# JS_StopWatch
 
-This is a a JavaScript Calculator that does basic operations Start Stop and Resets the Calculator.
+JS StopWatch
+
+This is the JS StopWatch that starts the timer, stops the timer and reset's the timer.
